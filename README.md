@@ -1,4 +1,7 @@
 # fa_plugins
+![Profile](profile.png)
+
+
 Mushclient plugins for FA MUD.
 
 MulitTool - This is just a launcher I made. Not needed to play the game but super cool I think.
