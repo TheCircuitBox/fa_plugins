@@ -8,5 +8,5 @@ FA Client 1.12 - Built by our lord and savior Mizzy. This is a custom appliation
 MS / Mushclient - Built for another MUD but has been widely adopted for every MUD.
 
 ![FA MULTI-TOOL](screenshot.png)
-![FA CLIENT 1.12](screenshot.png)
-![MUSHCLiENT](screenshot.png)
+![FA CLIENT 1.12](faclient112.png)
+![MUSHCLiENT](mushclient.png)
