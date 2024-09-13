@@ -8,7 +8,7 @@
    author="Fubar"
    id="48062dcd6b968c590df50f32"
    language="Lua"
-   purpose="HP KI and TNL bars"
+   purpose="HP KI and bars"
    date_written="2024-05-16 09:00"
    requires="5"
    version="3.0"
@@ -65,7 +65,7 @@ fprompt HP &g%h&W/&D&G%H&D KI &y%m&W/&D&Y%M&D TNL %3/%1%LPL &Y%X&D FORM &G%K&D P
 GAUGE_HEIGHT = 15
 
 WINDOW_WIDTH = 915
-WINDOW_HEIGHT = 50
+WINDOW_HEIGHT = 35
 NUMBER_OF_TICKS = 0
 
 BACKGROUND_COLOUR = ColourNameToRGB "black"
