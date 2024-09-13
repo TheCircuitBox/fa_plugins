@@ -48,16 +48,6 @@ USAGE:
 </trigger>
 
 <trigger
-	enabled="y"
-	match="You grab onto * and stab your tail into them and absorb them!"
-	regexp="n"
-    omit_from_output="y"
-	script="chats"
-	sequence="1"
-	>
-</trigger>
-
-<trigger
    enabled="y"
    match="\[Auction House\]\:"
    regexp="y"
