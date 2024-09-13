@@ -1,6 +1,6 @@
-Health Bars
+# HP, KI, & XP TNL Bars
 
-This is a HP, KI, and XP bar. There are two version. One with XP and one without XP.
+There are two plugins for the bars.
 
 WITH:
 ![Health Bar With](hp_ki_xp.png)
