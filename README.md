@@ -1,5 +1,7 @@
 # FA_PLUGINS
-![image](profile.jpg)
+
+![image](profile.jpg = 100x100)
+
 <hr>
 
 <h4 align="center">
