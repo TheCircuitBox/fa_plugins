@@ -1,6 +1,6 @@
 # FA_PLUGINS
 
-![image](profile.jpg = 100x100)
+![image](profile.jpg =100x100)
 
 <hr>
 
