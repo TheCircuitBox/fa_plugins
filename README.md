@@ -43,9 +43,7 @@
 
 - MUSHclient v5 >
 
-
 ## 🚀 Getting Started
-
 
 <details><summary>MulitTool</summary>
 
@@ -55,6 +53,19 @@ but super cool I think. This contains MUSHclient and all the plugins.
 ```
 
 </details>
-STAT BAR - This plugin shows your HP, KI, and XP TNL. There are two verions.
 
-TOOLBAR - This a toolbar / hotkey bar. This allows you to use f1 - 12 key to use certain commands.
+<details><summary>STAT BAR</summary>
+
+```
+This is a three line bar that show HP, KI and XP.
+```
+
+</details>
+
+<details><summary>HOTKEY BAR</summary>
+
+```
+This a hotkey bar. This place a bar of icons. This allows you to use F1 - F12 key to use certain skils nad functions 
+```
+
+</details>
