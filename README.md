@@ -7,11 +7,11 @@
 <hr>
 
 <h4 align="center">
-  <a href="INSTALL.md">Install</a>
+  <a href="INSTALL.md">INSTALL</a>
   ·
-  <a href="CONFIGURE.md">Configure</a>
+  <a href="CONFIGURE.md">CONFIGURE</a>
   ·
-  <a href="https://lazyvim.github.io">Docs</a>
+  <a href="DOCS">DOCS</a>
 </h4>
 
 <div align="center"><p>
