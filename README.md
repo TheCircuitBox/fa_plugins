@@ -24,7 +24,7 @@
       <img alt="Stars" src="https://img.shields.io/github/stars/TheCircuitBox/fa_plugins?style=for-the-badge&logo=starship&color=c69ff5&logoColor=D9E0EE&labelColor=302D41" />
     </a>
     <a href="https://github.com/TheCircuitBox/fa_plugins/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/LazyVim/LazyVim?style=for-the-badge&logo=bilibili&color=F5E0DC&logoColor=D9E0EE&labelColor=302D41" />
+      <img alt="Issues" src="https://img.shields.io/github/issues/TheCircuitBox/fa_plugins?style=for-the-badge&logo=bilibili&color=F5E0DC&logoColor=D9E0EE&labelColor=302D41" />
     </a>
     <a href="https://github.com/TheCircuitBox/fa_plugins">
       <img alt="Repo Size" src="https://img.shields.io/github/repo-size/TheCircuitBox/fa_plugins?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41" />
