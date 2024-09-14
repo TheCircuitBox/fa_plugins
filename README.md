@@ -1,6 +1,6 @@
 # FA_PLUGINS
 
-![image](profile.jpg =100x100)
+<img src="hprofile.jpg" width="100" height="100">
 
 <hr>
 
