@@ -1,9 +1,9 @@
-Copyright Neovim contributors. All rights reserved.
+Copyright fa_plugins. All rights reserved.
 
-Neovim is licensed under the terms of the Apache 2.0 license, except for
-parts of Neovim that were contributed under the Vim license (see below).
+fa_plugins is licensed under the terms of the Apache 2.0 license, except for
+parts of fa_plugins that were contributed under the Vim license (see below).
 
-Neovim's license follows:
+fa_plugins's license follows:
 
 ====
                                  Apache License
@@ -183,10 +183,10 @@ Neovim's license follows:
 
 ====
 
-The above license applies to all parts of Neovim except (1) parts that were
+The above license applies to all parts of fa_plguins except (1) parts that were
 contributed under the Vim license and (2) externally maintained libraries.
 
-The externally maintained libraries used by Neovim are:
+The externally maintained libraries used by fa_plugins are:
 
   - Klib: a Generic Library in C. MIT/X11 license.
   - Lua: MIT license
@@ -204,7 +204,7 @@ The externally maintained libraries used by Neovim are:
 
 ====
 
-Any parts of Neovim that were contributed under the Vim license are licensed
+Any parts of fa_plugins that were contributed under the Vim license are licensed
 under the Vim license unless the copyright holder gave permission to license
 those contributions under the Apache 2.0 license.
 
