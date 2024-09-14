@@ -9,7 +9,7 @@
 <h4 align="center">
   <a href="INSTALL.md">Install</a>
   ·
-  <a href="https://lazyvim.github.io/configuration">Configure</a>
+  <a href="CONFIGURE.md">Configure</a>
   ·
   <a href="https://lazyvim.github.io">Docs</a>
 </h4>
