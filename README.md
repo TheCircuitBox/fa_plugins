@@ -7,7 +7,7 @@
 <hr>
 
 <h4 align="center">
-  <a href="https://lazyvim.github.io/installation">Install</a>
+  <a href="INSTALL.md">Install</a>
   ·
   <a href="https://lazyvim.github.io/configuration">Configure</a>
   ·
