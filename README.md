@@ -12,7 +12,7 @@
 
 <div align="center"><p>
     <a href="https://github.com/TheCircuitBox/fa_plugins/releases/latest">
-      <img alt="Latest release" src="https://img.shields.io/github/v/release/LazyVim/LazyVim?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&include_prerelease&sort=semver" />
+      <img alt="Latest release" src="https://img.shields.io/github/v/release/TheCircuitBox/fa_plugins?style=for-the-badge&logo=starship&color=C9CBFF&logoColor=D9E0EE&labelColor=302D41&include_prerelease&sort=semver" />
     </a>
     <a href="https://github.com/TheCircuitBox/fa_plugins/pulse">
       <img alt="Last commit" src="https://img.shields.io/github/last-commit/LazyVim/LazyVim?style=for-the-badge&logo=starship&color=8bd5ca&logoColor=D9E0EE&labelColor=302D41"/>
