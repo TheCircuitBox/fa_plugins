@@ -46,25 +46,15 @@
 
 ## 🚀 Getting Started
 
-You can find a starter template for **LazyVim** [here](https://github.com/LazyVim/starter)
 
-<details><summary>Try it with Docker</summary>
-  
+<details><summary>MulitTool</summary>
+
 ```sh
-docker run -w /root -it --rm alpine:edge sh -uelic '
-  apk add git lazygit neovim ripgrep alpine-sdk --update
-  git clone https://github.com/LazyVim/starter ~/.config/nvim
-  cd ~/.config/nvim
-  nvim
-'
+This is just a launcher I made. Not needed to play the game but super cool I think.
+This contains MUSHclient and all the plugins.
 ```
 
 </details>
-
-Mushclient plugins for FA MUD.
-
-MulitTool - This is just a launcher I made. Not needed to play the game but super cool I think.
-
 STAT BAR - This plugin shows your HP, KI, and XP TNL. There are two verions.
 
 TOOLBAR - This a toolbar / hotkey bar. This allows you to use f1 - 12 key to use certain commands.
