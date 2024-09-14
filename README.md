@@ -49,9 +49,9 @@
 
 <details><summary>MulitTool</summary>
 
-```sh
-This is just a launcher I made. Not needed to play the game but super cool I think.
-This contains MUSHclient and all the plugins.
+```
+This is just a launcher I made. Not needed to play the game,
+but super cool I think. This contains MUSHclient and all the plugins.
 ```
 
 </details>
