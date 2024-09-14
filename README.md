@@ -29,25 +29,19 @@
     <a href="https://github.com/TheCircuitBox/fa_plugins">
       <img alt="Repo Size" src="https://img.shields.io/github/repo-size/TheCircuitBox/fa_plugins?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41" />
     </a>
-    <a href="https://twitter.com/intent/follow?screen_name=folke">
-      <img alt="follow on Twitter" src="https://img.shields.io/twitter/follow/folke?style=for-the-badge&logo=twitter&color=8aadf3&logoColor=D9E0EE&labelColor=302D41" />
-    </a>
 </div>
 
 ## ✨ Features
 
-- 🔥 Transform your Neovim into a full-fledged IDE
-- 💤 Easily customize and extend your config with [lazy.nvim](https://github.com/folke/lazy.nvim)
+- 🔥 Transform your MUSHclient into a shit brick powerhouse
+- 💤 Easily customize and extend your play style
 - 🚀 Blazingly fast
 - 🧹 Sane default settings for options, autocmds, and keymaps
 - 📦 Comes with a wealth of plugins pre-configured and ready to use
 
 ## ⚡️ Requirements
 
-- Neovim >= **0.9.0** (needs to be built with **LuaJIT**)
-- Git >= **2.19.0** (for partial clones support)
-- a [Nerd Font](https://www.nerdfonts.com/) **_(optional)_**
-- a **C** compiler for `nvim-treesitter`. See [here](https://github.com/nvim-treesitter/nvim-treesitter#requirements)
+- MUSHclient v5 >
 
 ## 🚀 Getting Started
 
