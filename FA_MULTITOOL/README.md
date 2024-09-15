@@ -1,5 +1,5 @@
-# fa_plugins
-Fighter Adventure MultiTool:
+# Fighter Adventure MultiTool
+
 
 This launches FA Client, and Mushclient. This also has shortcuts to Discord, Website, and a place to vote. It also contains a secret menu. Do not cheat and try to guess!
 
