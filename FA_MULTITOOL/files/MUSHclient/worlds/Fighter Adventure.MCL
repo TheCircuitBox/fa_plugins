@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE muclient>
-<!-- Saved on Friday, September 13, 2024, 12:30 PM -->
+<!-- Saved on Sunday, September 15, 2024, 2:42 PM -->
 <!-- MuClient version 5.06 -->
 <!-- Written by Nick Gammon -->
 <!-- Home Page: http://www.mushclient.com/ -->
@@ -8,7 +8,7 @@
 <world
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-13 12:30:16"
+   date_saved="2024-09-15 14:42:05"
 
    auto_say_override_prefix="-"
    auto_say_string="say "
@@ -19,7 +19,7 @@
    mapping_failure="Alas, you cannot go that way."
    name="Fighter Adventure"
    new_activity_sound="(No sound)"
-   output_font_name="FixedSys"
+   output_font_name="Courier New"
    script_editor="notepad"
    script_editor_argument="%file"
    script_language="Lua"
@@ -30,6 +30,7 @@
 
    arrows_change_history="y"
    auto_pause="y"
+   auto_repeat="y"
    auto_resize_minimum_lines="1"
    auto_resize_maximum_lines="20"
    chat_foreground_colour="red"
@@ -46,7 +47,10 @@
    edit_script_with_notepad="y"
    enable_aliases="y"
    enable_beeps="y"
+   enable_command_stack="y"
    enable_scripts="y"
+   enable_spam_prevention="y"
+   enable_speed_walk="y"
    enable_timers="y"
    enable_triggers="y"
    enable_trigger_sounds="y"
@@ -63,12 +67,14 @@
    keypad_enable="y"
    line_information="y"
    log_output="y"
+   lower_case_tab_completion="y"
    max_output_lines="5000"
    mud_can_change_link_colour="y"
    mud_can_change_options="y"
    note_text_colour="#040000"
-   output_font_height="9"
+   output_font_height="12"
    output_font_weight="400"
+   output_font_charset="1"
    paste_delay_per_lines="1"
    pixel_offset="1"
    port="7775"
@@ -89,14 +95,13 @@
    timestamp_output_back_colour="black"
    tool_tip_visible_time="5000"
    tool_tip_start_time="400"
-   treeview_triggers="y"
    treeview_aliases="y"
    treeview_timers="y"
    underline_hyperlinks="y"
    unpause_on_send="y"
    use_custom_link_colour="y"
    use_default_input_font="y"
-   use_default_output_font="y"
+   utf_8="y"
    warn_if_scripting_inactive="y"
    wrap="y"
    wrap_column="80"
@@ -110,7 +115,7 @@
 <triggers
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-13 12:30:16"
+   date_saved="2024-09-15 14:42:05"
   >
 </triggers>
 
@@ -119,7 +124,7 @@
 <aliases
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-13 12:30:16"
+   date_saved="2024-09-15 14:42:05"
   >
 </aliases>
 
@@ -128,7 +133,7 @@
 <timers
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-13 12:30:16"
+   date_saved="2024-09-15 14:42:05"
   >
 </timers>
 
@@ -137,7 +142,7 @@
 <macros
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-13 12:30:16"
+   date_saved="2024-09-15 14:42:05"
   >
 
   <macro name="up" type="send_now" >
@@ -231,7 +236,7 @@
 <variables
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-13 12:30:16"
+   date_saved="2024-09-15 14:42:05"
   >
 </variables>
 
@@ -240,7 +245,7 @@
 <colours
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-13 12:30:16"
+   date_saved="2024-09-15 14:42:05"
   >
 
 <ansi>
@@ -297,7 +302,7 @@
 <keypad
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-13 12:30:16"
+   date_saved="2024-09-15 14:42:05"
   >
 
   <key name="0" >
@@ -411,7 +416,7 @@
 <printing
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-13 12:30:16"
+   date_saved="2024-09-15 14:42:05"
   >
 
 <ansi>
@@ -434,4 +439,15 @@
 
 </ansi>
 </printing>
+
+<!-- plugins -->
+<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_CHAT_WINDOW.xml" plugin="y" />
+<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_HEALTH_BAR.xml" plugin="y" />
+<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_ICON_BAR.xml" plugin="y" />
+<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_KAIOKEN_DEATH.xml" plugin="y" />
+<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_MAP.xml" plugin="y" />
+<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_MOB_DEATH.xml" plugin="y" />
+<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_OMIT_BLANK_LINES.xml" plugin="y" />
+<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_OUTPUT_WINDOW.xml" plugin="y" />
+<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_INVENTORY_WINDOW.xml" plugin="y" />
 </muclient>
