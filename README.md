@@ -66,7 +66,7 @@ This is a three line bar that show HP, KI and XP.
 
 </details>
 
-<details><summary>HOTKEY BAR</summary>
+<details><summary>ICON BAR</summary>
 
 ```
 This a hotkey bar. This place a bar of icons. This allows you to use F1 - F12 key to use certain skils nad functions 
