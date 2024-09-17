@@ -49,7 +49,7 @@
 
 ## 🚀 Getting Started
 
-<details><summary>MulitTool</summary>
+<details><summary>FA Launcher</summary>
 
 ```
 This is just a launcher I made. Not needed to play the game,
