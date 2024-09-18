@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<!-- Saved on Sunday, September 15, 2024, 2:42 PM -->
+<!-- MuClient version 5.06 -->
+<!-- Written by Nick Gammon -->
+<!-- Home Page: http://www.mushclient.com/ -->
+
+<!-- Plugin state saved. Plugin: "Inventory_Miniwindow". World: "Fighter Adventure". -->
+
+<muclient>
+
+<!-- variables -->
+
+<variables
+   muclient_version="5.06"
+   world_file_version="15"
+   date_saved="2024-09-15 14:42:07"
+  >
+  <variable name="mw_e49156f49854904ea8b90223_inventory_windowflags">2</variable>
+  <variable name="mw_e49156f49854904ea8b90223_inventory_windowx">1407</variable>
+  <variable name="mw_e49156f49854904ea8b90223_inventory_windowy">507</variable>
+</variables>
+</muclient>
