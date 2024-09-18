@@ -66,7 +66,7 @@ if /I %input% EQU 2 start MUSHclient.lnk
 if /I %input% EQU 3 start WEBSITE.url
 if /I %input% EQU 4 start DISCORD.url
 if /I %input% EQU 5 start VOTE.url
-if /I %input% EQU 6 start PATREON
+if /I %input% EQU 6 start PATREON.url
 if /I %input% EQU 7 Taskkill  /F /IM wscript.exe
 if /I %input% EQU 8 goto list_games
 if /I %input% EQU 9 goto disk_usage
