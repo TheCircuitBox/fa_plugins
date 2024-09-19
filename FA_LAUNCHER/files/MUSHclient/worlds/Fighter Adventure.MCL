@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE muclient>
-<!-- Saved on Sunday, September 15, 2024, 2:42 PM -->
+<!-- Saved on Wednesday, September 18, 2024, 9:50 PM -->
 <!-- MuClient version 5.06 -->
 <!-- Written by Nick Gammon -->
 <!-- Home Page: http://www.mushclient.com/ -->
@@ -8,7 +8,7 @@
 <world
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-15 14:42:05"
+   date_saved="2024-09-18 21:50:53"
 
    auto_say_override_prefix="-"
    auto_say_string="say "
@@ -115,7 +115,7 @@
 <triggers
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-15 14:42:05"
+   date_saved="2024-09-18 21:50:53"
   >
 </triggers>
 
@@ -124,7 +124,7 @@
 <aliases
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-15 14:42:05"
+   date_saved="2024-09-18 21:50:53"
   >
 </aliases>
 
@@ -133,7 +133,7 @@
 <timers
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-15 14:42:05"
+   date_saved="2024-09-18 21:50:53"
   >
 </timers>
 
@@ -142,7 +142,7 @@
 <macros
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-15 14:42:05"
+   date_saved="2024-09-18 21:50:53"
   >
 
   <macro name="up" type="send_now" >
@@ -236,7 +236,7 @@
 <variables
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-15 14:42:05"
+   date_saved="2024-09-18 21:50:53"
   >
 </variables>
 
@@ -245,7 +245,7 @@
 <colours
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-15 14:42:05"
+   date_saved="2024-09-18 21:50:53"
   >
 
 <ansi>
@@ -302,7 +302,7 @@
 <keypad
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-15 14:42:05"
+   date_saved="2024-09-18 21:50:53"
   >
 
   <key name="0" >
@@ -416,7 +416,7 @@
 <printing
    muclient_version="5.06"
    world_file_version="15"
-   date_saved="2024-09-15 14:42:05"
+   date_saved="2024-09-18 21:50:53"
   >
 
 <ansi>
@@ -441,13 +441,5 @@
 </printing>
 
 <!-- plugins -->
-<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_CHAT_WINDOW.xml" plugin="y" />
-<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_HEALTH_BAR.xml" plugin="y" />
-<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_ICON_BAR.xml" plugin="y" />
-<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_KAIOKEN_DEATH.xml" plugin="y" />
-<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_MAP.xml" plugin="y" />
-<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_MOB_DEATH.xml" plugin="y" />
-<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_OMIT_BLANK_LINES.xml" plugin="y" />
-<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_OUTPUT_WINDOW.xml" plugin="y" />
-<include name="C:\Users\Fubar\Downloads\FA_MULTITOOL (1)\FA_MULTITOOL\files\MUSHclient\worlds\plugins\FA_INVENTORY_WINDOW.xml" plugin="y" />
+<!-- <include name="C:\Users\Fubar\Documents\GitHub\fa_plugins\FA_LAUNCHER\files\MUSHclient\worlds\plugins\FA_CHAT_WINDOW.xml" plugin="y" /> -->
 </muclient>
