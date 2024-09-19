@@ -56,7 +56,7 @@ echo [38;2;255;255;0m                   │        ┌──[01] LAUNCH FA Clie
 echo [38;2;255;255;0m                   │        ├──[03] WEBSITE                 ├──[04] DISCORD                     │[0m
 echo [38;2;255;255;0m                   │        ├──[05] VOTE                    ├──[06] PATREON                     │[0m
 echo [38;2;255;255;0m                   │        ├──[07] KILL Shreksophone       ├──[08] LIST GAMES                  │[0m
-echo [38;2;255;255;0m                   │        └──[09] ENTER THE MATRIX        └──[10]                             │[0m
+echo [38;2;255;255;0m                   │        └──[09] ENTER THE MATRIX        └──[10] EXIT                        │[0m
 echo [38;2;255;255;0m                   │                                                                            │[0m
 echo [38;2;255;255;0m                   └────────┬───────────────────────────────────────────────────────────────────┘[0m
 echo [38;2;255;255;0m                            │                                                                    [0m
@@ -70,7 +70,7 @@ if /I %input% EQU 6 start PATREON.url
 if /I %input% EQU 7 Taskkill  /F /IM wscript.exe
 if /I %input% EQU 8 goto list_games
 if /I %input% EQU 9 start matrix.bat
-::if /I %input% EQU 10 ????????????????
+if /I %input% EQU 10 EXIT
 if /I %input% EQU 11 start secret.txt
 cls
 goto banner
@@ -105,5 +105,6 @@ echo.
 echo GLOBAL THERMONUCLEAR WAR
 echo.
 echo [end session]
+echo.
 pause
 goto banner
