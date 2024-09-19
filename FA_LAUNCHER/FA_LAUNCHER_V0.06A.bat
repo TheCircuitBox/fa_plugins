@@ -14,6 +14,7 @@ cd files
 start shrek.vbs
 
 :: SET the host, status and check if the server is online
+:network
 set website=google.com
 set status=Unknown
 
@@ -27,7 +28,6 @@ if %errorlevel%==0 (
 )
 
 :: ASCII Banner 38 = foreground, 2 = use RGB, next 3 numbers are RGB #'s
-:banner
 cls
 echo.
 echo.
@@ -46,7 +46,6 @@ echo                     [38;2;105;105;105m╚═╝  ╚═╝╚════�
 echo                     [38;2;%color%m                          S T A T U S = %status%                                 [0m
 
 :: The main menu alt + 175, 179, 192, 195, 196, 217, 218
-:menu
 for /f %%A in ('"prompt $H &echo on &for %%B in (1) do rem"') do set BS=%%A
 echo.
 echo.
@@ -73,7 +72,7 @@ if /I %input% EQU 9 start matrix.bat
 if /I %input% EQU 10 Taskkill  /F /IM wscript.exe && exit
 if /I %input% EQU 11 start secret.txt
 cls
-goto banner
+goto network
 
 :: WARGAMES
 :list_games
@@ -106,5 +105,5 @@ echo GLOBAL THERMONUCLEAR WAR
 echo.
 echo [end session]
 echo.
-pause
-goto banner
+pause >nul
+goto network
