@@ -1,6 +1,6 @@
 @echo off
-title "The Matrix"
-mode con: cols=80 lines=60
+title "The Matrix © 1999"
+mode con: cols=80 lines=45
 color 02
 cls
 echo W
