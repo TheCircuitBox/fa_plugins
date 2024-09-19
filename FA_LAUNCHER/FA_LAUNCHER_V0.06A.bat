@@ -5,7 +5,7 @@
 title [Fighter Adventure Launcher V0.06A] - [Fubar 2024]
 
 :: Sets the window to UTF-8
-chcp 65001 >nul
+chcp 65001>nul
 
 :: Change directory to the files folder (this contains the shortcut, links, txt, and exe)
 cd files
@@ -28,6 +28,7 @@ if %errorlevel%==0 (
 )
 
 :: ASCII Banner 38 = foreground, 2 = use RGB, next 3 numbers are RGB #'s
+mode con: cols=120 lines=30
 cls
 echo.
 echo.
@@ -71,6 +72,7 @@ if /I %input% EQU 8 goto list_games
 if /I %input% EQU 9 start matrix.bat
 if /I %input% EQU 10 Taskkill  /F /IM wscript.exe && exit
 if /I %input% EQU 11 start secret.txt
+if /I %input% EQU 12 goto weather
 cls
 goto network
 
@@ -105,5 +107,11 @@ echo GLOBAL THERMONUCLEAR WAR
 echo.
 echo [end session]
 echo.
-pause >nul
+pause
+goto network
+
+:weather
+mode con: cols=126 lines=40
+curl wttr.in
+pause
 goto network
