@@ -48,16 +48,6 @@ USAGE:
 </trigger>
 
 <trigger
-	enabled="y"
-	match="You grab onto * and stab your tail into them and absorb them!"
-	regexp="n"
-    omit_from_output="y"
-	script="chats"
-	sequence="1"
-	>
-</trigger>
-
-<trigger
    enabled="y"
    match="\[Auction House\]\:"
    regexp="y"
@@ -141,10 +131,10 @@ USAGE:
 require "movewindow"  -- load the movewindow.lua module
 require "copytable"
 
-BODY_FONT_NAME = "Arial"
+BODY_FONT_NAME = "Courier New"
 BODY_FONT_SIZE = 9
 SCROLL_BAR_WIDTH = 15
-MAX_LINES = 10000 -- how many lines to store in scrollback
+MAX_LINES = 1000 -- how many lines to store in scrollback
 
 -- date_format = "[%d %b %H:%M:%S] "        -- [30 Aug 13:29:49]   date and time 24 hour
 -- date_format = "[%d %b %I:%M:%S%p] "  -- [30 Aug 01:20:12PM]     date and time 12 hour
@@ -188,7 +178,7 @@ theme = {
 
     TITLE_HEIGHT = 17, -- for miniwindow title area
     SUBTITLE_HEIGHT = 17, -- for miniwindow title area
-    TITLE_FONT_NAME = "Dina", -- for miniwindow title area
+    TITLE_FONT_NAME = "Courier New", -- for miniwindow title area
     TITLE_FONT_SIZE = 8 -- for miniwindow title area
 }  -- end theme table
 

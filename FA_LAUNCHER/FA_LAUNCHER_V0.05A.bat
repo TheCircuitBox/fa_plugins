@@ -62,7 +62,7 @@ echo [38;2;255;255;0m                   └────────┬───
 echo [38;2;255;255;0m                            │                                                                    [0m
 set /p input=.%BS% [38;2;255;255;0m                           └──────[?]  [0m
 if /I %input% EQU 1 start FAClient1.12.exe
-if /I %input% EQU 2 start MUSHclient.lnk
+if /I %input% EQU 2 start "" ".\MUSHclient\MUSHclient.exe"
 if /I %input% EQU 3 start WEBSITE.url
 if /I %input% EQU 4 start DISCORD.url
 if /I %input% EQU 5 start VOTE.url
