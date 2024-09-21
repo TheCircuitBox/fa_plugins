@@ -118,7 +118,7 @@ goto network
 
 :wfetch
 @echo off
-mode con: cols=80 lines=30
+mode con: cols=90 lines=30
 cls
 for /f "tokens=1,2,3,4,5" %%a in ('wmic cpu get name ^| findstr /r /v "^$"') do set cpu=%%a %%b %%c %%d %%e
 for /f "tokens=7,8,9" %%a in ('wmic cpu get name ^| findstr /r /v "^$"') do set gpu=%%a %%b %%c
@@ -145,4 +145,5 @@ echo [94m         `^^^^^^lllllll  lllllllllllllllllll[0m
 echo [94m               ````^^^^  ^^lllllllllllllllll[0m
 echo [94m                              ````^^^^^^llll[0m
 echo.
+pause
 goto network
